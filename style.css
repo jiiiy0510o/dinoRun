@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "DOSIyagiMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/DOSIyagiMedium.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #f2f2f2;
+  position: relative;
+  font-family: "DOSIyagiMedium";
+  color: #666;
+  padding-top: 160px;
+}
+
+.gameCon {
+  position: relative;
+  border-bottom: 1px solid #999;
+  top: 50%;
+  width: 700px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.score {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+}
+.notice {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  letter-spacing: 4px;
+  font-size: 1.6rem;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 6px;
+  color: #666;
+  border: 1px solid #666;
+}
+.notice:active {
+  background-color: #ccc;
+}
